@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Slider</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="slider.css"/>
+</head>
+
+<body>
+
+<h1>Accessible Slider</h1>
+<p>Based on Range Input</p>
+
+<h2>Bare</h2>
+<label for="slider1">Rating foo:</label>
+<input id="slider1" value="5" min="0" max="10" step="1" type="range">
+<span id="sliderValue1"></span>
+
+<h2>Styled</h2>
+<div class="sliderStyle1">
+	<label for="slider2">Rating bar:</label>
+	<input id="slider2" value="5" min="0" max="10" step="1" type="range">
+<span id="sliderValue2"></span>
+</div>
+
+<script src="slider.js"></script>
+
+</body>
+</html>
